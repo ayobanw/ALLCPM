@@ -1,7 +1,7 @@
 -- ANW®©™ Script by Abg & Mi 💥 (v3 - Safe Android ID)
 
 local info = gg.getTargetInfo()
-local android_id = info and info.androidId or "ADMIN"
+local android_id = info and info.androidId or "AYOB"
 
 gg.alert("📱 Android ID anda: " .. android_id)
 
@@ -23,7 +23,7 @@ if response.code ~= 200 then
 end
 
 if string.find(body, key .. ":" .. android_id) then
-    gg.alert("✔ Key sah & ID sepadan. Selamat datang ke ANW®©™ Script!")
+    gg.alert("✔ Key sah & ID sepadan. Selamat datang ke ☣️ⲀⲚⲰ ®©™☣️ Script!")
 
     
 
@@ -32,35 +32,15 @@ else
     os.exit()
 end
 
+--masuk script 
 local github_user = "ayobanw"
 local repo_name = "ALLCPM"
-local key_file = "keys.txt"
-local script_file = " [GHV5] 𝑨𝒚𝒐𝒃 𝑷𝑹𝑶𝑮𝑹𝑨𝑴 script V5.lua"
+local script_file = "[GHV5] 𝑨𝒚𝒐𝒃 𝑷𝑹𝑶𝑮𝑹𝑨𝑴 script V5.lua"
 
-
-local key_url = "https://raw.githubusercontent.com/" .. github_user .. "/" .. repo_name .. "/main/" .. key_file
 local script_url = "https://raw.githubusercontent.com/" .. github_user .. "/" .. repo_name .. "/main/" .. script_file
 
 local function trim(s)
   return s:match("^%s*(.-)%s*$")
-end
-
-local inputKey = gg.prompt({"Masukkan Key (Password) Anda:"})
-if not inputKey or not inputKey[1] or inputKey[1] == "" then
-  gg.alert("Tiada input diterima, skrip ditamatkan.")
-  os.exit()
-end
-inputKey = trim(inputKey[1])
-
-local keyRequest = gg.makeRequest(key_url)
-if not keyRequest or not keyRequest.content then
-  gg.alert("❌ Gagal mendapatkan senarai key. Semak sambungan internet atau URL.")
-  os.exit()
-end
-
-if not keyRequest.content:find(inputKey, 1, true) then
-  gg.alert("❌ Key tidak sah. Hubungi admin untuk akses.")
-  os.exit()
 end
 
 local scriptRequest = gg.makeRequest(script_url)
