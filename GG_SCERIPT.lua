@@ -35,7 +35,7 @@ end
 --masuk script 
 local github_user = "ayobanw"
 local repo_name = "ALLCPM"
-local script_file = "[GHV5] 𝑨𝒚𝒐𝒃 𝑷𝑹𝑶𝑮𝑹𝑨𝑴 script V5.lua"
+local script_file = "AYOB PROGRAM V5.lua"
 
 local script_url = "https://raw.githubusercontent.com/" .. github_user .. "/" .. repo_name .. "/main/" .. script_file
 
