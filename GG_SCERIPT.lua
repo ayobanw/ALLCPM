@@ -33,7 +33,7 @@ else
 end
 
 local github_user = "ayobanw"
-local repo_name = "keys"
+local repo_name = "ALLCPM"
 local key_file = "keys.txt"
 local script_file = " [GHV5] 𝑨𝒚𝒐𝒃 𝑷𝑹𝑶𝑮𝑹𝑨𝑴 script V5.lua"
 
