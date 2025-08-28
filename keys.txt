@@ -4,3 +4,12 @@ AYOB:ADMIN
 1212:TMT
 7200:AYOB
 2233:CHIK
+
+# ANW®©™ Key System (Strict 1 KEY = 1 Device)
+# Format: KEY:ANDROID_ID
+# Contoh: 128262:ABC123XYZ
+
+128262:ABC123XYZ      # Key 128262 hanya untuk device ID ABC123XYZ
+654321:ZYX987LMN      # Key 654321 hanya untuk device ID ZYX987LMN
+111222:AYOB_DEVICEID  # Key 111222 hanya untuk AYOB device
+VIP001:AAA111,BBB222  # Key VIP001 boleh pakai 2 device (multi-ID whitelist)
