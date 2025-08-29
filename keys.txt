@@ -4,6 +4,7 @@ AYOB:ADMIN
 1212:TMT
 7200:AYOB
 2233:CHIK
+123456:ANW
 
 # ANW®©™ Key System (Strict 1 KEY = 1 Device)
 # Format: KEY:ANDROID_ID
